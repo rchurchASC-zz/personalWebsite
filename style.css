@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    font-family:  'Butcherman', cursive;
+    background-color: red;
+}
+h1{
+    text-align: center;
+    color: red;
+    font-family:  'Butcherman', cursive;
+}
+a{
+    color:black;
+}
+#aboutMe{
+    display: flex;
+    align-items: space-between;
+}
+.word{
+    background-color: red;
+}
+.sub{
+    color: black;
+}
+p{
+    color: whitesmoke;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+}
+.text{
+    display: flex;
+}
+.text img{
+    width:25%;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    font-family:  'Butcherman', cursive;
+}
+@media(max-width:1250px){
+    .text{
+        flex-direction: column;
+    }
+}
